@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #262626;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  margin-top: 1em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  gap: 1em;
+}
+
+.menu .left-menu {
+  flex-grow: 1;
+  margin-left: 1em;
+}
+
+.menu .logo {
+  width: 110px;
+}
+
+
+.menu > ul a {
+  font-size: .85rem;
+  padding-bottom: 2px;
+}
+.menu > ul a:hover {
+  /* color: blue; */
+  border-bottom: 1px solid #262626;
+  /* transition: width 2s; */
+}
