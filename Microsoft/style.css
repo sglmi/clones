@@ -23,6 +23,7 @@ a {
   margin-top: 1em;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: .75em;
 }
 
 .menu ul {
@@ -49,3 +50,29 @@ a {
   border-bottom: 1px solid #262626;
   /* transition: width 2s; */
 }
+
+.banner {
+  padding: .5em 0;
+  background-color: #0067b8;
+  text-align: center;
+}
+
+.banner:hover {
+  outline: 1px dashed #262626;
+}
+
+.banner a {
+  color: #fafafa;
+  font-size: .85em;
+}
+
+.banner i {
+  color: #bbd6ec;
+  font-size: .65em;
+  margin-left: 5px;
+}
+
+.banner a:hover {
+  border-bottom: 1px solid #fafafa;
+}
+
