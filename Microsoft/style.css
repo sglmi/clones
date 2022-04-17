@@ -134,3 +134,41 @@ a {
   font-size: 1rem;
   font-weight: bold;
 }
+
+
+/* ================ 
+    Products  
+================ */
+.products {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-block: 5em;
+}
+
+.products div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  /* border: 1px solid red; */
+}
+
+.products div img {
+  display: block;
+  width: 45px;
+}
+
+.products div a {
+  text-align: center;
+  margin-top: 10px;
+  color: #0067b8;
+  text-decoration: underline;
+  text-decoration-color: #0067b8;
+
+}
+
+a:hover {
+  text-decoration: solid;
+}
