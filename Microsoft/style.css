@@ -261,5 +261,14 @@ a {
 .game img {
   width: 100%;
   height: 100%;
-  /* z-index: -1; */
+}
+
+
+/* Business */
+.business > h2 {
+  margin-bottom: .65em;
+}
+
+.business .card h3 {
+  margin-top: 1.2em;
 }
