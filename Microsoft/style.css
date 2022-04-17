@@ -169,6 +169,34 @@ a {
 
 }
 
-a:hover {
-  text-decoration: solid;
+/* ================ 
+    Cards  
+================ */
+.cards {
+  display: flex;
+  gap: 1.5em;
+  margin-bottom: 3em;
+}
+
+.card p {
+  font-size: .90rem;
+}
+
+.card a {
+  display: block;
+  margin-top: 1em;
+  color: #0067b8;
+  font-weight: bold;
+}
+
+.card i {
+  margin-left: 10px;
+  font-size: 13px;
+  color: #0067b8;
+}
+
+.card a:hover {
+  text-decoration: underline;
+  text-decoration-color: #0067b8;
+  text-decoration-line: 10px;
 }
