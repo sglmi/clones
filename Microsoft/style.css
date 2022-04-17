@@ -18,6 +18,14 @@ a {
   margin: 0 auto;
 }
 
+.btn-primary {
+  background-color: #000;
+  color: #fff;
+  padding: 7px 20px;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+}
 
 /* ================ 
     Main navbar   
@@ -199,4 +207,59 @@ a {
   text-decoration: underline;
   text-decoration-color: #0067b8;
   text-decoration-line: 10px;
+}
+
+/* ================ 
+    Game promotion  
+================ */
+.game {
+  background-color: #171717;
+  display: flex;
+  margin-bottom: 3em;
+  height: 400px;
+  align-items: center;
+}
+.game div {
+  background-color: #171717;
+  color: #fff;
+  padding: 0 10em 0 3em;
+}
+
+.game div p {
+  font-size: .95rem;
+  line-height: 1.5;
+  margin-block: 1em;
+}
+
+.game div a {
+  margin-right: 4em;
+  color: #fff;
+  font-size: .90rem;
+}
+.game div a i {
+  margin-left: 10px;
+  font-size: 13px;
+  color: #262626;
+}
+.game .btn-primary {
+  background-color: #fff;
+  color: #000;
+}
+
+.game .btn-primary:hover {
+  text-decoration: underline;
+}
+
+.game .btn-secondary {
+  font-weight: bold;
+}
+
+.game .btn-secondary i {
+  color: #fff;
+}
+
+.game img {
+  width: 100%;
+  height: 100%;
+  /* z-index: -1; */
 }
