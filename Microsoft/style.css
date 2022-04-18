@@ -21,7 +21,7 @@ a {
 .btn-primary {
   background-color: #000;
   color: #fff;
-  padding: 7px 20px;
+  padding: .5em 1em;
   display: inline-block;
   font-size: 1rem;
   font-weight: bold;
@@ -272,3 +272,47 @@ a {
 .business .card h3 {
   margin-top: 1.2em;
 }
+
+/* Carbon */
+.carbon {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/star.webp") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 10rem;
+  height: 450px;
+  position: relative;
+}
+
+.carbon .content {
+  position: absolute;
+  top: 40%;
+  margin-left: 5em;
+  color: #fff;
+  max-width: 35%;
+}
+
+.carbon .content p {
+  margin-block: 20px;
+}
+.carbon .content h3 {
+  font-size: 1.5rem;
+}
+
+.carbon .content a i {
+  margin-left: 5px;
+}
+
+.carbon .btn-primary {
+  background-color: #fff;
+  color: #212121;
+  margin-right: 4em;
+}
+
+.carbon .btn-secondary {
+  color: #fff;
+  margin-right: 4em;
+  font-weight: bold;
+}
+
